@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+</head>
+
+<!-- 
+    Forms in html  : we write this in body tag 
+
+    forms are used to collect data from the user 
+
+    eg- sign up / login / help requests / contact me 
+
+    <form>
+
+        form content 
+
+    </form>
+
+    --- Action in form 
+
+    Action attribute is used to define what action needs to be performed when a form is submitted 
+
+    <form  action="/action.java">
+
+    Form Element : Input 
+
+    <input type="text" placeholder="Enter Name">
+
+
+    # Label 
+
+    <label for="id1">
+        <input type ="radio" value ="class x " name ="class" id="id1">
+    </label>
+
+    <label for="id2">
+        <input type ="radio" value ="class x " name ="class" id="id2">
+    </label>
+
+
+    # Class & Id 
+
+    <div id="id1" class="group1">      </div>
+
+    <div id="id2" class="group2">     </div>
+
+
+    # Checkboxes  : for selecting multiple boxes then we use this 
+
+    <label for="id1">
+        <input type ="checkbox" value ="class x " name ="class" id="id1">
+    </label>
+
+    <label for="id2">
+        <input type ="checkbox" value ="class x " name ="class" id="id2">
+    </label>
+
+
+    # Drop down 
+
+    Select 
+
+    <select name="city" id="city">
+        <option value="Delhi">Delhi </option>
+        <option value="Mumbai">Mumbai </option>
+        <option value="Banglore">Banglore</option>
+    </select>
+
+
+
+-->
+
+<body>
+    <header> </header>
+    <h4> Registration form </h4>
+
+    <form action="/action.java">
+        <input type="text" placeholder="username">
+        <br> <br>
+        <input type="password" placeholder="password">
+
+        <br> <br>
+
+        <label for="id101">
+            <input type="radio" value="class XI" name="class" id="101">class XI
+        </label>
+
+        <br> <br>
+
+        <label for="id102">
+            <input type="radio" value="class XII" name="class" id="102">class XII
+        </label>
+
+        <h5> select favorite subject </h5>
+
+        <label for="math">
+            <input type="checkbox" value="math" name="class" id="101">Math
+        </label>
+
+        <br> <br>
+
+        <label for="phy">
+            <input type="checkbox" value="phy" name="class" id="102">Physics
+        </label>
+
+        <br> <br>
+
+        <label for="chem">
+            <input type="checkbox" value="chem" name="class" id="102">Chemistry
+        </label>
+
+        <br> <br>
+
+        <label for="eng">
+            <input type="checkbox" value="eng" name="class" id="102">English
+        </label>
+
+        <br> <br>
+
+        <label for="cmp">
+            <input type="checkbox" value="cmp" name="class" id="102">Computer Science
+        </label>
+
+        <br> <br>
+
+        Select your city
+        <select name="city" id="city">
+            <option value="Delhi">Delhi </option>
+            <option value="Mumbai">Mumbai </option>
+            <option value="Banglore">Banglore</option>
+            <option value="Noida">Noida</option>
+            <option value="Pune">Pune</option>
+        </select>
+
+        <br> <br>
+
+        <textarea name="feedback" id="feedback" placeholder="Please provide your valuable feedback here" rows="5" ></textarea>
+
+        <input type="submit" value="submit">
+
+        <br> <br>
+
+        <iframe src="https://en.wikipedia.org/wiki/India" height="600" width="800"></iframe>
+
+        <br> <br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oHiO01lEbc4?si=J4eQkmmqkaVJdlQu" title="YouTube video player" 
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+
+    </form>
+
+</body>
+
+</html>
